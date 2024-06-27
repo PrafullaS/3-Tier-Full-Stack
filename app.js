@@ -21,7 +21,7 @@ const reviewRoutes = require('./routes/reviews');
 
 const MongoDBStore = require("connect-mongo")(session);
 
-const dbUrl = process.env.DB_URL || 'mongodb+srv://fun2sh97:onvGwIaoeiI0D23C@first-devops-db.hr1l5lt.mongodb.net/?retryWrites=true&w=majority&appName=First-DevOps-DB';
+const dbUrl = process.env.DB_URL || 'mongodb+srv://fun2sh97:<password>@first-devops-db.4kx8udg.mongodb.net/?retryWrites=true&w=majority&appName=First-DevOps-DB';
 
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
